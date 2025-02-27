@@ -134,3 +134,19 @@ a{
         grid-template-columns: 1fr;
     }
 }
+
+#ulImgsHabilidades {
+    text-align: center;
+}
+
+#ulImgsHabilidades li{
+    display: flex;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+#ulImgsHabilidades li progress{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+

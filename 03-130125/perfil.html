@@ -141,6 +141,32 @@
     </div>
     </main>
 
+    <div class="modal fade" id="addPerfil" tabindex="-1" data-bs-theme="dark">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white border-secondary">
+                <div class="modal-body px-5">
+                    <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <p class="text-center fs-3 mt-4 mb-0">Adicionar um perfil</p>
+                    <p class="text-center mb-4">Adicione um perfil CunhaFlix para outra pessoa.</p>
+                    <div class="d-flex align-items-center my-4">
+                        <img src="img/users/avatar2.png" alt="" class="img-fluid rounded-4 me-3" width="100">
+                        <input type="text" class="form-control" placeholder="Nome" id="Nome" autocomplete="">
+                    </div>
+                    <hr>
+                    <div class="form-check form-switch d-flex justify-content-between align-items-center my-4 p-0">
+                        <div>
+                            <p class="mb-1">Perfil para crianças.</p>
+                            <p class="text-muted mb-0">Ver apenas séries e filmes indicados ao público infantil.</p>
+                        </div>
+                        <input type="checkbox" role="switch" class="form-check-input" id="Crianca">
+                    </div>
+                    <button type="button" class="btn w-100 btn-light mt-3 rounded-0" onclick="adicionarPerfil()">Salvar</button>
+                    <button type="button" class="btn w-100 btn-dark mt-3 rounded-0" data-bs-dismiss="modal">Cancelar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
     <script src="js/perfil.js"></script>

@@ -8,7 +8,7 @@ function inicializarDados(){
         dados = [
             {
                 nome: "Carlos",
-                avatar: "img/users/avatar.png",
+                avatar: "img/users/Carlos.jpg",
                 crianca: false
             },
             {
@@ -66,7 +66,7 @@ function carregarPerfis(){
                 <i class= 'bx bxs-plus-circle rounded-4 d-flex justify-content-center align-items-center flex-fill'></i>            
                 <p class="text-secondary text-center mt-2 fs-5 mb-0">Adicionar perfil</p>
             </a>
-        </div>;`
+        </div>`
 }
 
 function adicionarPerfil(){
